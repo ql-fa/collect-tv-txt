@@ -1,4 +1,5 @@
 https://raw.githubusercontent.com/5peak2me/tvbox/refs/heads/main/tv/txt/ipv6.txt
+https://gitlab.com/tvtg/vip/-/raw/main/log.txt
 http://rihou.cc:555/gggg.nzk
 http://rihou.cc:567/gggg.nzk
 https://2883.kstore.vip/gggg.nzk
