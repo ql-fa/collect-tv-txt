@@ -498,7 +498,7 @@ for whitelist_line in whitelist_auto_lines:
             response_time = float(whitelist_parts[0].replace("ms", ""))
         except ValueError:
             print(f"response_time转换失败: {whitelist_line}")
-            response_time = 50000  # 单位毫秒，转换失败给个60秒
+            response_time = 60000  # 单位毫秒，转换失败给个60秒
         if response_time < 2000:  #2s以内的高响应源
             process_channel_line(",".join(whitelist_parts[1:]))
 
