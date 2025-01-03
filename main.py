@@ -507,14 +507,14 @@ version=datetime.now().strftime("%Y%m%d-%H-%M-%S")+","+about_video
 about="关于本源,"+about_video
 # 瘦身版
 all_lines_simple =  ["更新时间,#genre#"] +[version] + ['\n'] +\
-             ["专享源🅰,#genre#"] + read_txt_to_array('主频道/♪专享源①.txt') + ['\n'] + \
-             ["专享源🅱,#genre#"] + read_txt_to_array('主频道/♪专享源②.txt') + ['\n'] + \
-             ["专享央视,#genre#"] + read_txt_to_array('主频道/♪优质央视.txt') + ['\n'] + \
-             ["专享卫视,#genre#"] + read_txt_to_array('主频道/♪优质卫视.txt') + ['\n'] + \
-             ["港澳台,#genre#"] + read_txt_to_array('主频道/♪港澳台.txt') + ['\n'] + \
-             ["优质个源,#genre#"] + read_txt_to_array('主频道/♪优质源.txt') + ['\n'] + \
-             ["儿童专享,#genre#"] + read_txt_to_array('主频道/♪儿童专享.txt') + ['\n'] + \
-             ["咪咕直播,#genre#"] + read_txt_to_array('主频道/♪咪咕直播.txt') + ['\n'] + \
+#             ["专享源🅰,#genre#"] + read_txt_to_array('主频道/♪专享源①.txt') + ['\n'] + \
+#             ["专享源🅱,#genre#"] + read_txt_to_array('主频道/♪专享源②.txt') + ['\n'] + \
+#             ["专享央视,#genre#"] + read_txt_to_array('主频道/♪优质央视.txt') + ['\n'] + \
+#             ["专享卫视,#genre#"] + read_txt_to_array('主频道/♪优质卫视.txt') + ['\n'] + \
+#             ["港澳台,#genre#"] + read_txt_to_array('主频道/♪港澳台.txt') + ['\n'] + \
+#             ["优质个源,#genre#"] + read_txt_to_array('主频道/♪优质源.txt') + ['\n'] + \
+#             ["儿童专享,#genre#"] + read_txt_to_array('主频道/♪儿童专享.txt') + ['\n'] + \
+#             ["咪咕直播,#genre#"] + read_txt_to_array('主频道/♪咪咕直播.txt') + ['\n'] + \
              ["上海频道,#genre#"] + sort_data(sh_dictionary,set(correct_name_data(corrections_name,sh_lines))) + ['\n'] + \
              ["体育频道,#genre#"] + sort_data(ty_dictionary,set(correct_name_data(corrections_name,ty_lines))) + ['\n']
 
