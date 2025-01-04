@@ -9,10 +9,10 @@
 
 
 ```
-https://ghp.ci/raw.githubusercontent.com/ql-fa/collect-tv-txt/main/merged_output.txt
+https://raw.githubusercontent.com/ql-fa/collect-tv-txt/refs/heads/main/merged_output.txt
 ```
 ```
-https://ghp.ci/raw.githubusercontent.com/ql-fa/collect-tv-txt/main/merged_output.m3u
+https://raw.githubusercontent.com/ql-fa/collect-tv-txt/refs/heads/main/merged_output.m3u
 ```
 
 
